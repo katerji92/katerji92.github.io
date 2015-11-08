@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="katerji92PW">
+<head>
+  <title>Mostafa El Katerji</title>
+
+  <!--CSS Dependencies-->
+  <link rel="stylesheet" href="bower_components/angular-material/angular-material.min.css"/>
+  <link rel="stylesheet" href="css/index.css"/>
+  <link type="text/css" href="css/blog.css" />
+
+</head>
+
+<body layout="row" ng-controller="MainCntrl as mainCntrl" ng-cloak>
+  <md-sidenav class="md-whiteframe-z3" md-is-locked-open="$mdMedia('gt-sm') || showSideNav">
+
+    <div layout="column" layout-fill>
+      <md-toolbar md-scroll-shrink md-shrink-speed-factor="0.5">
+          <h1>Mostafa El Katerji</h1>
+      </md-toolbar>
+      <!--Note: for scrollShrink to work, the toolbar must be a sibling of a md-content element, placed before it.-->
+    </div>
+
+    <md-card>
+      <md-card-content class="md-whiteframe-1dp">
+          Software Engineer, geek.
+      </md-card-content>
+    </md-card>
+
+    <md-content layout-padding flex layout-wrap>
+        <md-list>
+      <md-list-item>
+        <md-button href="#Blog" flex class="navtab" ng-class="{'selected' : mainCntrl.currentRoute == 'Blog'}">
+          <div layout="row">
+            <ng-md-icon icon="my_library_books" flex="50" size="33" style="fill:black"></ng-md-icon>
+            <p flex="20">Blog</p>
+          </div>
+        </md-button>
+      </md-list-item>
+      <md-list-item>
+        <md-button flex ng-href="#Resume" ng-class="{'selected' : mainCntrl.currentRoute == 'Resume'}">
+        <div layout="row">
+            <ng-md-icon icon="perm_identity" flex="50" size="33" style="fill:black"></ng-md-icon>
+            <p flex="20">Resume</p>
+          </div>
+        </md-button>
+      </md-list-item>
+      <md-list-item>
+        <md-button flex href="#Contact" ng-class="{'selected' : mainCntrl.currentRoute == 'Contact'}">
+        <div layout="row">
+            <ng-md-icon icon="contacts" flex="50" size="33" style="fill:black"></ng-md-icon>
+            <p flex="20">Contact</p>
+          </div>
+        </md-button>
+      </md-list-item>
+    </md-list>
+    </md-content>
+    
+
+    
+  </md-sidenav>
+  <div flex layout="column">
+
+    <md-toolbar class="md-warn" layout="row" layout-align="space-around  center">
+      <md-button hide-gt-sm ng-click="toggleSideNav()">
+        <ng-md-icon icon="menu" style="fill:white"size="30"></ng-md-icon>
+      </md-button>
+      <h1 class="md-headline">{{mainCntrl.currentRoute}}</h1>
+    </md-toolbar>
+
+    <md-content flex>
+      <div ng-view>
+      </div>
+    </md-content>
+  </div>
+</body>
+
+<!--Dependencies-->
+<script src="bower_components/angular/angular.js" type="text/javascript"></script>
+<script src="bower_components/angular-animate/angular-animate.js" type="text/javascript"></script>
+<script src="bower_components/angular-aria/angular-aria.js" type="text/javascript"></script>
+<script src="bower_components/angular-route/angular-route.js" type="text/javascript"></script>
+<script src="bower_components/angular-material/angular-material.js" type="text/javascript"></script>
+<script src="bower_components/angular-material-icons/angular-material-icons.min.js"></script>
+
+<!--AngularJS scripts-->
+<script src="js/app.js" type="text/javascript"></script>
+<script src="js/route.js" type="text/javascript"></script>
+<!--Controllers-->
+<script src="js/controllers/main.controller.js"></script>
+<script src="js/controllers/blog.controller.js"></script>
+<script src="js/controllers/contact.controller.js"></script>
+<!--Directives-->
+<<script src="js/directives/addedFunctionality/hoverWhiteFrameOnMouseOver.js" type="text/javascript"></script>
+
+</html>

@@ -1,0 +1,20 @@
+html{
+  font-family: RobotoDraft, Roboto, sans-serif;
+  font-size: 14px;
+}
+md-toolbar h1 {
+  margin: auto;
+  font-size: 1.2em;
+}
+a.md-button ng-md-icon{
+  padding-top: 8px;
+  text-align: right;
+}
+
+a.md-button p{
+	margin-top: 5px;
+}
+
+a.md-button.selected{
+	color: blue;
+}
