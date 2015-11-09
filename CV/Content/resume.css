@@ -38,7 +38,7 @@ p { font-size: 100%; line-height: 18px; padding-right: 3em; }
 a { color: #990003 }
 a:hover { text-decoration: none; }
 strong { font-weight: bold; }
-li { line-height: 24px; border-bottom: 1px solid #ccc; }
+ul.lines li { border-bottom: 1px solid #ccc; }
 p.enlarge { font-size: 144%; padding-right: 6.5em; line-height: 24px; }
 p.enlarge span { color: #000 }
 .contact-info { margin-top: 7px; }
@@ -121,18 +121,18 @@ a#pdf:hover { background: #222; }
 	float: right;
 }
 
-#contactDetails ul {
+#contactDetails ul.lines {
 	list-style-type: none;
 	font-size: 0.9em;
 	margin-top: 2px;
 }
 
-#contactDetails ul li {
+#contactDetails ul.lines li {
 	margin-bottom: 3px;
 	color: #444;
 }
 
-#contactDetails ul li a, a[href^=tel] {
+#contactDetails ul.lines li a, a[href^=tel] {
 	color: #444; 
 	text-decoration: none;
 	-webkit-transition: all .3s ease-in;
@@ -142,7 +142,7 @@ a#pdf:hover { background: #222; }
 	transition: all .3s ease-in;
 }
 
-#contactDetails ul li a:hover { 
+#contactDetails ul.lines li a:hover { 
 	color: #cf8a05;
 }
  #LinkedInLogo {
