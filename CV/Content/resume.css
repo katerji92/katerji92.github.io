@@ -228,3 +228,9 @@
 .CV .segregatedListItem {
   margin-top: 3px;
 }
+
+@media print {
+  a[href]:after {
+    content: none !important;
+  }
+}
