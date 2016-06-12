@@ -21,7 +21,7 @@
   padding: 10px 80px;
   margin: 0px;
   background: rgb(249, 245, 245);
-  border: solid #666;
+  border-top: solid #666;
   border-width: 6px 0 2px 0;
 }
 .CV .yui-gf {
@@ -206,6 +206,7 @@ ul.no-padding{
 }
 .CV #contactDetails {
   float: right;
+      font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
 }
 .CV #contactDetails ul.lines {
   list-style-type: none;
