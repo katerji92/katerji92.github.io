@@ -173,7 +173,7 @@ ul.no-padding{
   margin: 30px auto;
 }
 .CV .mainDetails {
-  padding: 25px 35px;
+  /* padding: 25px 35px; */
   overflow: auto;
 }
 .CV #name h1 {
@@ -183,7 +183,7 @@ ul.no-padding{
   margin-bottom: -6px;
 }
 .CV #name h2 {
-  font-size: 2em;
+  font-size: 1.7em;
   margin-left: 2px;
   font-family: 'Rokkitt', Helvetica, Arial, sans-serif;
 }
