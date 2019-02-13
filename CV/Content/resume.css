@@ -18,15 +18,15 @@
   color: #444;
 }
 .CV #inner {
-  padding: 10px 80px;
+  padding: 10px 60px;
   margin: 0px;
   background: rgb(249, 245, 245);
   border-top: solid #666;
   border-width: 6px 0 2px 0;
 }
 .CV .yui-gf {
-  margin-bottom: 0.7em;
-  padding-bottom: 0.8em;
+  margin-bottom: 0.5em;
+  padding-bottom: 0.5em;
   border-bottom: 1px solid #ccc;
 }
 .CV #hd {
@@ -118,8 +118,8 @@ ul.no-padding{
 }
 .CV .job {
   position: relative;
-  margin-bottom: .7em;
-  padding-bottom: .7em;
+  margin-bottom: .5em;
+  padding-bottom: .5em;
   border-bottom: 1px solid #ccc;
 }
 .CV .job.last {
@@ -242,6 +242,10 @@ ul.no-padding{
 
 .CV .yui-gf .yui-u, .CV .yui-ge div.first, .CV .yui-gf .yui-u {
      width: 85%;
+}
+
+ul{
+  padding-left: 25px;
 }
 
 @media print {
