@@ -18,7 +18,7 @@
   color: #444;
 }
 .CV #inner {
-  padding: 10px 60px;
+  padding: 10px 50px;
   margin: 0px;
   background: rgb(249, 245, 245);
   border-top: solid #666;
@@ -246,6 +246,10 @@ ul.no-padding{
 
 ul{
   padding-left: 25px;
+}
+
+.job .responsibilities-block {
+  margin-top: 1px;
 }
 
 @media print {
