@@ -25,8 +25,8 @@
   border-width: 6px 0 2px 0;
 }
 .CV .yui-gf {
-  margin-bottom: 0.35em;
-  padding-bottom: 0.35em;
+  margin-bottom: 0.45em;
+  padding-bottom: 0.45em;
   border-bottom: 1px solid #ccc;
 }
 .CV #hd {
@@ -259,10 +259,10 @@ ul{
 }
 
 .yui-u {
-  font-size: 12px;
+  font-size: 13px;
 }
 
 .job .responsibilities-block {
-  margin-top: 1px;
+  margin-top: 3px;
   font-size: 14px;
 }
