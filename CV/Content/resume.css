@@ -3,6 +3,7 @@
   background: #222;
   position: relative;
 }
+
 .CV .msg a {
   margin-left: 20px;
   background: #408814;
@@ -10,97 +11,115 @@
   padding: 4px 8px;
   text-decoration: none;
 }
+
 .CV .msg a:hover {
   background: #266400;
 }
+
 .CV body {
   font-family: Georgia;
   color: #444;
 }
+
 .CV #inner {
   padding: 10px 50px;
   margin: 0px;
-  background: rgb(249, 245, 245);
+  background: rgb(249, 245, 245) !important;
   border-top: solid #666;
   border-width: 6px 0 2px 0;
 }
+
 .CV .yui-gf {
   margin-bottom: 0.35em;
   padding-bottom: 0.35em;
   border-bottom: 1px solid #ccc;
 }
+
 .CV #hd {
   margin: 0em 0 1em 0;
   padding-bottom: .5em;
   border-bottom: 1px solid #ccc;
 }
-.CV #bd,
-.CV #ft {
+
+.CV #bd, .CV #ft {
   margin-bottom: 2em;
 }
+
 .CV #ft {
   padding: 1em 0 5em 0;
   font-size: 92%;
   border-top: 1px solid #ccc;
   text-align: center;
 }
+
 .CV #ft p {
   margin-bottom: 0;
   text-align: center;
 }
+
 .CV h2 {
   font-size: 152%;
 }
-.CV h3,
-.CV h4 {
+
+.CV h3, .CV h4 {
   font-size: 122%;
 }
+
 .CV h3 {
   margin-bottom: 5px;
 }
-.CV h1,
-.CV h2,
-.CV h3,
-.CV h4 {
+
+.CV h1, .CV h2, .CV h3, .CV h4 {
   color: #333;
 }
+
 .CV p {
   font-size: 100%;
   line-height: 18px;
   padding-right: 3em;
 }
+
 .CV a {
   color: inherit;
 }
+
 .CV a:hover {
   text-decoration: none;
   color: #990003;
 }
+
 .CV strong {
   font-weight: bold;
 }
+
 .CV ul.lines li {
-  border-bottom: 0.08em solid rgba(214,214,214,0.45);
+  border-bottom: 0.08em solid rgba(214, 214, 214, 0.45);
   margin-bottom: 0.1em;
 }
+
 .CV p.enlarge {
   font-size: 144%;
   padding-right: 6.5em;
   line-height: 24px;
 }
+
 .CV p.enlarge span {
   color: #000;
 }
+
 .CV .contact-info {
   margin-top: 7px;
 }
+
 .CV .first h2 {
-  font-size:18px;
+  font-size: 18px;
   font-family: "Open Sans", "Century Gothic", CenturyGothic, "Microsoft YaHei New", "Microsoft Yahei", "微软雅黑", 宋体, SimSun, 华文细黑, STXihei, 黑体, SimHei, sans-serif;
 }
+
 .CV ul.lines li.last {
   border-bottom: 0;
 }
+
 .CV a#pdf {
   display: block;
   float: left;
@@ -110,118 +129,145 @@
   margin-bottom: 6px;
   text-decoration: none;
 }
+
 .CV a#pdf:hover {
   background: #222;
 }
-ul.no-padding{
-    padding-left: 0;
+
+ul.no-padding {
+  padding-left: 0;
 }
+
 .CV .job {
   position: relative;
   margin-bottom: .5em;
   padding-bottom: .5em;
   border-bottom: 1px solid #ccc;
 }
+
 .CV .job.last {
   padding-bottom: 0;
 }
+
 .CV .job h4 {
   position: absolute;
   top: 0.35em;
   right: 0;
 }
+
 .CV .job p {
   margin: 0.2em 0 0 0;
 }
+
 .CV .last {
   border: none;
 }
+
 .CV .skills-list ul {
   margin: 0;
 }
+
 .CV .skills-list li {
   margin: 3px 0;
   padding: 3px 0;
 }
+
 .CV .skills-list li span {
   font-size: 152%;
   display: block;
   margin-bottom: -2px;
   padding: 0;
 }
+
 .CV .talent {
   width: 25%;
   float: left;
 }
+
 .CV .talent h2 {
   margin-bottom: 6px;
 }
+
 .CV #srt-ttab {
   margin-bottom: 100px;
   text-align: center;
 }
+
 .CV #srt-ttab img.last {
   margin-top: 20px;
 }
+
 .CV .yui-gf .yui-u {
   width: 80.2%;
 }
+
 .CV .yui-gf div.first {
   width: 12.3%;
 }
+
 .CV #cv {
   width: 90%;
   max-width: 800px;
   background: #f3f3f3;
   margin: 30px auto;
 }
+
 .CV .mainDetails {
   /* padding: 25px 35px; */
   overflow: auto;
 }
+
 .CV #name h1 {
   font-size: 2.5em;
   font-weight: 700;
   font-family: 'Rokkitt', Helvetica, Arial, sans-serif;
   margin-bottom: -6px;
 }
+
 .CV #name h2 {
   font-size: 1.7em;
   margin-left: 2px;
   font-family: 'Rokkitt', Helvetica, Arial, sans-serif;
 }
+
 .CV #mainArea {
   padding: 0 40px;
 }
+
 .CV #headshot {
   width: 12.5%;
   float: left;
   margin-right: 30px;
 }
+
 .CV #headshot img {
   width: 100%;
   height: auto;
   -webkit-border-radius: 50px;
   border-radius: 50px;
 }
+
 .CV #name {
   float: left;
 }
+
 .CV #contactDetails {
   float: right;
-      font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
+
 .CV #contactDetails ul.lines {
   list-style-type: none;
   font-size: 0.9em;
   margin-top: 2px;
 }
+
 .CV #contactDetails ul.lines li {
   margin-bottom: 3px;
   color: #444;
 }
-.CV #contactDetails ul.lines li a,
-.CV a[href^=tel] {
+
+.CV #contactDetails ul.lines li a, .CV a[href^=tel] {
   color: #444;
   text-decoration: none;
   -webkit-transition: all .3s ease-in;
@@ -230,28 +276,31 @@ ul.no-padding{
   -ms-transition: all .3s ease-in;
   transition: all .3s ease-in;
 }
+
 .CV #contactDetails ul.lines li a:hover {
   color: #cf8a05;
 }
+
 .CV #LinkedInLogo {
   background-image: url('../../Images/LinkedIn-InBug-2CRev.png');
 }
+
 .CV .segregatedListItem {
   margin-top: 3px;
 }
 
 .CV .yui-gf .yui-u, .CV .yui-ge div.first, .CV .yui-gf .yui-u {
-     width: 85%;
+  width: 85%;
 }
 
-ul{
+ul {
   padding-left: 25px;
 }
 
 .job .responsibilities-block {
   margin-top: 1px;
 }
-
+ß
 @media print {
   a[href]:after {
     content: none !important;
@@ -265,4 +314,10 @@ ul{
 .job .responsibilities-block {
   margin-top: 1px;
   font-size: 14px;
+}
+
+@media print {
+  body {
+    -webkit-print-color-adjust: exact !important;
+  }
 }
